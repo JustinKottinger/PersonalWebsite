@@ -1,25 +1,23 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.colorado.edu/aerospace/'>Aerospace Engineering Sciences</a> at the University of Colorado Boulder.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>3775 Discovery Drive</p>
+    <p>Boulder, CO 80303</p>
+    <p>Room 244-35</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Ph.D. student within the Aerospace Engineering Sciences Department at the University of Colorado Boulder. My research occupies the fusion of multi-robot task and motion planning, fault detection and correction, and human interpretable artificial intelligence. My research efforts enable the optimal and robust execution of heterogeneous multi-robot teams to complete high-level mission objectives. In addition to publishing research articles in the aforementioned fields, I've also lectured fellow graduate students in ASEN 5519 “Algorithmic Motion Planning”.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My coursework and extensive research have fostered my expertise in motion and task planning, statistics, prediction, and estimation theory. I find great pride and passion in developing and deploying verifiably safe robotic systems. After obtaining my doctoral degree, I hope to focus my motion and task planning expertise to the field of autonomous vehicles, multi-robot space exploration, or other performance critical robotic applications.

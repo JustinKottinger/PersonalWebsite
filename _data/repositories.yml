@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - JustinKottinger
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - aria-systems-group/K-CBS
+  - aria-systems-group/Explanation-Guided-CBS
+  - aria-systems-group/Fault-Identification-via-Bayesian-Inference
