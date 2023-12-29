@@ -1,10 +1,6 @@
 ---
 ---
-@string{aps = {American Physical Society,}}
-@string{ieee = {Institute of Electrical and Electronics Engineers,}}
-
 @INPROCEEDINGS{9561893,
-  abbr={},
   title={MAPS-X: Explainable Multi-Robot Motion Planning via Segmentation}, 
   author={Kottinger, Justin and Almagor, Shaull and Lahijanian, Morteza},
   booktitle={2021 IEEE International Conference on Robotics and Automation (ICRA)}, 
@@ -15,12 +11,47 @@
   pages={7994-8000},
   doi={10.1109/ICRA48506.2021.9561893},
   html={https://ieeexplore.ieee.org/abstract/document/9561893},
-  pdf={MAPS-X-ICRA-2021.pdf},
-  publisher=ieee,
   selected={false}
 }
 
-@INPROCEEDINGS{9982018,
+@ARTICLE{exp_mapf_journal,
+  author={Shaull Almagor and Justin Kottinger and Morteza Lahijanian},
+  journal={Artificial Intelligence Journal (Under Review)}, 
+  title={Explainability of Multi-Agent Path Finding}, 
+  abstract={Multi-Agent Path Finding (MAPF) is the problem of planning paths for agents to reach their targets from their start locations, such that the agents do not collide while executing the plan. In safety-critical systems, the plan is typically checked by a human supervisor, who decides on whether to allow its execution. In such cases, we wish to convince the human that the plan is indeed collision-free. To this end, we propose an explanation scheme for MAPF, which bases explanations on the simplicity of visual verification by human’s cognitive process. The scheme decomposes a plan into segments such that within each segment, the agents’ paths are disjoint. We can then convince the supervisor that the plan is collision-free using a small number of images (dubbed an explanation). We can also measure the simplicity of a plan by the number of segments required for the decomposition. We study the complexity of algorithmic problems that arise by the explanation scheme and the tradeoff between the length (makespan) of a plan and its minimal decomposition. We also introduce two centralized1 algorithms for planning with explanations. One is based on a coupled search algorithm similar to A∗, and the other is a decoupled method based on Conflict-Based Search (CBS). We refer to the latter as Explanation-Guided CBS (XG-CBS), which uses a low-level search for individual agents and maintains a high-level conflict tree to guide the low-level search to avoid collisions as well as increasing the number of segments. We propose four approaches to the low-level search of XG-CBS by modifying A∗ for explanations and analyze their effects on the completeness of XG-CBS. Finally, we show the efficacy of the proposed explanation scheme in various MAPF problems and empirically evaluate the performance of the proposed planning algorithms in a series of benchmark problems.},
+  year={2023},
+  selected={false},
+  doi={10.1109/ICRA48506.2021.9561893},
+  volume={},
+  number={},
+  pages={7994-8000},
+  }
+
+@ARTICLE{delay_mapf,
+  author={Justin Kottinger and Tzvika Geft and Shaull Almagor and Oren Salzman and Morteza Lahijanian},
+  journal={Proceedings of the International Conference on Automated Planning and Scheduling (Under Review)}, 
+  title={Introducing Delays in Multi Agent Path Finding}, 
+  abstract={We consider a Multi-Agent Path Finding (MAPF) setting where agents have been assigned a plan, but during its execution some agents are delayed. Instead of replanning from scratch when such a delay occurs, we propose delay introduction, whereby we delay some additional agents so that the remainder of the plan can be executed safely. We show that finding the minimum number of additional delays is APX-hard, i.e., it is NP-hard to find a (1 + ε)-approximation for some ε > 0. However, in practice we can find optimal delay-introductions using Conflict-Based Search for very large numbers of agents, and both planning time and the resulting length of the plan are comparable, and sometimes outperform the state-of-the-art heuristics for replanning.},
+  year={2023},
+  html={https://arxiv.org/abs/2307.11252},
+  selected={false}
+  }
+
+@ARTICLE{10333309,
+  author={Theurkauf, Anne and Kottinger, Justin and Ahmed, Nisar and Lahijanian, Morteza},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Chance-Constrained Multi-Robot Motion Planning Under Gaussian Uncertainties}, 
+  abstract={We consider a chance-constrained multi-robot motion planning problem in the presence of Gaussian motion and sensor noise. Our proposed algorithm, CC-K-CBS, leverages the scalability of kinodynamic conflict-based search (K-CBS) in conjunction with the efficiency of Gaussian belief trees as used in the Belief- A framework, and inherits the completeness guarantees of Belief- A ’s low-level sampling-based planner. We also develop three different methods for robot-robot probabilistic collision checking, which trade off computation with accuracy. Our algorithm generates motion plans driving each robot from its initial to goal state while accounting for uncertainty evolution with chance-constrained safety guarantees. Benchmarks compare computation time to conservatism of the collision checkers, in addition to characterizing the performance of the planner as a whole. Results show that CC-K-CBS scales up to 30 robots.},
+  year={2023},
+  volume={9},
+  number={1},
+  pages={835-842},
+  doi={10.1109/LRA.2023.3337700},
+  html={https://ieeexplore.ieee.org/document/10333309},
+  selected={true}
+  }
+
+@article{9982018,
   author={Kottinger, Justin and Almagor, Shaull and Lahijanian, Morteza},
   booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
   title={Conflict-Based Search for Multi-Robot Motion Planning with Kinodynamic Constraints}, 
@@ -34,7 +65,6 @@
   ISSN={2153-0866},
   month={Oct},
   html={https://ieeexplore.ieee.org/abstract/document/9982018},
-  pdf={K-CBS-IROS-2022.pdf},
   selected={true}
 }
 
@@ -52,8 +82,7 @@
     month={Jun.}, 
     pages={692-700},
     html={https://ojs.aaai.org/index.php/ICAPS/article/view/19859},
-    pdf={XG-CBS-ICAPS-2022.pdf},
-    selected={true}
+    selected={false}
 }
 
 

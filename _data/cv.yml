@@ -2,96 +2,142 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Justin M. Kottinger
     - name: Date of Birth
-      value: 14th March 1879
+      value: 23rd October 1997
     - name: Languages
-      value: English, German
+      value: English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D in Robotics
+      institution: University of Colorado Boulder, CO
+      year: 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Department of Robotics
+    - title: M.S in Aerospace Engineering
+      institution: University of Colorado Boulder, CO
+      year: 2024
       description:
-        - Description 1.
-        - Description 2.
-
+        - Concentration in Autonomous Systems / Robotics
+    - title: B.A in Physics
+      institution: Whittier College, Whittier, CA
+      year: 2019
+      description:
+        - Minor in Mathematics
+        - Member of Sigma Pi Sigma and Pi Mu Epsilon
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming Languages
+      items: 
+        - C++
+        - Python
+        - MATLAB
+        - Julia
+    - title: Modeling and Simulation
+      items:
+        - ROS / ROS 2
+        - Gazebo
+        - Simulink
+    - title: Operating Systems
+      items:
+        - Mac OS
+        - Linux
+        - Windows
+    - title: Workflow
+      items:
+        - Git
+        - GitHub 
+        - Bitbucket
+        - Jira
+- title: Relevant Coursework
+  type: nested_list
+  contents:
+    - title: Core Courses
+      items: 
+        - Linear Control Theory
+        - Mathematical Statistics
+        - Statistical Estimation
+        - Decision Making Under Uncertainty
+        - Spacecraft Attitude, Dynamics, and Control
+    - title: Research Specific Courses
+      items:
+        - Algorithmic Motion Planning
+        - Statistical Learning
+        - Verifcation and Synthesis of Stochastic Systems
+        - Coordination and Control of Multi-Agent Systems
+        - Hybrid Control Systems
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Robotic Navigation Software Engineer Graduate Intern 
+      institution: Trimble Corporation, Westminster, Colorado, USA
+      year: 2023-present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Conceptualized and developed a containerized physics-based simulator using Docker, ROS2, and Gazebo to test GNC service product.
+        - Implemented motion planning algorithms for line acquisition of autonomous agricultural vehicles.
+        - Enabled autonomous line acquisition in reverse and validated on-vehicle.
+    - title: Fault Identification of Autonomous Systems via Bayesian Inference
+      institution: University of Colorado Boulder, Colorado, USA
+      year: 2022-2023
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Utilized Bayesian hypothesis testing to accurately identify faults and unknown anomalies within autonomous robots.
+        - Implemented statistical estimation algorithms such as Kalman Filter, Extended Kalman Filter, and Unscented Kalman Filter in C++.
+        - Conceptualized and implemented moving time-windows and fault-partitioning to improve the baseline approach by 20%.
+        - Delivered a final product that identified faults and unknown anomalies with over 95% success.
+    - title: Autonomous Systems Software Engineer Graduate Intern
+      institution: The Aerospace Corporation, El Segundo, California, USA
+      year: 2021-2022
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
+        - Assisted in design, control, and system identification of an omni-directional octocopter.
+        - Implemented advanced algorithms and data structures to create novel flight software in Python and C++.
+        - Validated custom flight modules inside simulation using ROS and Gazebo, and tested them onboard the vehicle.
+        - Assisted in the development of a Risk-Aware framework for Uber ATG's self-driving vehicle stack.
+        - Formulated probabilistic dynamics propagation and intent models for self-driving vehicle and pedestrian models.
+        - Implemented probabilistic models in Python and C++ using Bayesian derived statistics.
+- title: Presentations
+  type: time_table
+  contents:
+    - year: 2022
+      items: 
+        - <a href="https://www.youtube.com/watch?v=O39gmj5WVwE">Conflict‐based Search for Multi‐Robot Motion Planning with Kinodynamic Constraints</a>
+        - International Conference On Intelligent Robots and Systems (IROS)
+    - year: 2022
+      items: 
+        - Explainable Multi-Robot Motion Planning
+        - Robotics Summer Seminar
+    - year: 2022
+      items: 
+        - <a href="https://www.youtube.com/watch?v=UeZR3IzVbwM">Conflict‐Based Search for Explainable Multi‐Agent Path Finding</a>
+        - International Conference on Automated Planning and Scheduling (ICAPS)
+    - year: 2021
+      items: 
+        - <a href="https://www.youtube.com/watch?v=82VLQtOtZ8I">MAPS‐X -- Explainable Multi‐Robot Motion Planning via Segmentation</a>
+        - International Conference on Robotics and Automation (ICRA)
+- title: Achievements
+  type: time_table
+  contents:
+    - year: 2021
+      items: 
+        - Recipient, Graduate Assistantships for Areas of National Need (GAANN) Fellowship
+    - year: 2019
+      items: 
+        - Recipient, Undergraduate Award for Outstanding Academic Performance in the Major
+        - Recipient, Magna Cum Laude Honors
+    - year: 2018
+      items: 
+        - 2nd Place, Research Presentation Competition at NSF funded REU
+        - Captain, Whittier College NCAA Baseball Team
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/aria-systems-group/Multi-Robot-OMPL">Multi-Robot OMPL</a>
+      year: 2023-now
+      description: An extended version of the reverered <a href="https://ompl.kavrakilab.org/">Open Motion Planning Library</a> (OMPL) designed for decoupled multi-robot motion planning.
+    - title: <a href="https://github.com/aria-systems-group/Multi-Robot-OMPL">Kinodynamic Conflict-Based Search (K-CBS)</a>
+      year: 2022-now
+      description: A scalable and generalizable decoupled multi-robot motion planning algorithm that provides completeness guarantees.  
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

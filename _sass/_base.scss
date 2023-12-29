@@ -8,6 +8,11 @@ p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
 }
 
+div {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -72,6 +77,7 @@ blockquote {
 
   .card-title {
     color: var(--global-text-color);
+    font-weight: 500;
   }
 
   .card-item {
@@ -119,15 +125,15 @@ blockquote {
     font-family: monospace; // changes the font of the address
     p {
       display: inline-block;
-      margin: 0;
+      margin: 0rem;
     }
   }
 }
 .profile.float-right{
-  margin-left: 1rem;
+  margin-left: 5rem;
 }
 .profile.float-left{
-  margin-right: 1rem;
+  margin-right: 5rem;
 }
 
 @media (min-width: 575px) {
@@ -464,7 +470,7 @@ footer.sticky-bottom {
   }
 
   .grid-sizer, .grid-item {
-    width: 250px;
+    width: 32%;
     margin-bottom: 10px;
   }
 
@@ -538,7 +544,7 @@ footer.sticky-bottom {
         }
       }
       .title {
-        font-weight: bolder;
+        font-weight: 500;
 
       }
       .author {
@@ -652,6 +658,9 @@ html.transition *:after {
 
 // Extra Markdown style (post Customization)
 .post{
+    .post-title{
+        font-weight: 500;
+    }
   .post-meta{
     color: var(--global-text-color-light);
     font-size: 0.875rem;

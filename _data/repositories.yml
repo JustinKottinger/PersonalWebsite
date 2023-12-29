@@ -2,6 +2,9 @@ github_users:
   - JustinKottinger
 
 github_repos:
+  - aria-systems-group/Multi-Robot-OMPL
+  - aria-systems-group/K-CBS-Demos
   - aria-systems-group/K-CBS
   - aria-systems-group/Explanation-Guided-CBS
   - aria-systems-group/Fault-Identification-via-Bayesian-Inference
+  - aria-systems-group/MAPS-X

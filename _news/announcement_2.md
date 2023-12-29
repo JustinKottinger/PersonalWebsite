@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2023-03-09 07:59:00-0400
+date: 2023-12-01 15:59:00-0400
 inline: true
+title:
 ---
 
-Submitted our paper about delay-repair multi-agent path finding to SoCS 2023.
+I have successfuly completed my comprehensive exam to become a Ph.D. candidate. 

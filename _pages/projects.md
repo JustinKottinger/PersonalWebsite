@@ -2,11 +2,11 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Welcome to the Projects page, offering a comprehensive insight into my research endeavors in autonomous robotics. Each project represents a journey into the complexities of algorithmic motion planning and task execution for both single and multi-robot systems. From contributing to the "Open Motion Planning Library," a widely used C++ framework, to publishing research papers that advance the field, these projects embody a dedication to pushing the boundaries of knowledge. Dive into the details of each research project, exploring methodologies, challenges, and the impact on the evolving landscape of robotics. Whether you are a fellow researcher, student, or enthusiast, this page invites you to explore the depth and contributions of each project in the pursuit of advancing autonomous systems.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
-horizontal: false
+display_categories: [Work]
+horizontal: true
 ---
 
 <!-- pages/projects.md -->

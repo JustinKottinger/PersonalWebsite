@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: Fun Project 1
+description: Need to add stuff here.
 img: assets/img/1.jpg
-importance: 3
-category: fun
+importance: 1
+category: Fun
 ---
 
 Every project has a beautiful feature showcase page.
