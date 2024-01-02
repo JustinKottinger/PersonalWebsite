@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://justinkottinger.github.io/sitemap.xml
+Sitemap: https://justinkottinger.com/sitemap.xml
